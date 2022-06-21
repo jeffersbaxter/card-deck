@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Deck from './components/deck/deck.component';
+
+import DECK_LIST from './card-data.json';
+import DeckBack from './components/deck-back/deck-back.component';
 
 function App() {
+  const deckList = DECK_LIST;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="dashboard-container">
+      <p className='main-description'>Select a deck to view</p>
+      <div className='deck-list-container'>
+        {deckList.map(deck => <Deck key={deck.deckId} title={deck.title} back={<DeckBack description={deck.description} />} />)}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,110 @@
+[
+    {
+        "title": "React | Context",
+        "deckId": "deck-0", 
+        "description": "About React Contexts",
+        "cardList": [
+            {
+                "title": "Context: When to use it", 
+                "cardId": "card-0",
+                "detailList": [
+                {
+                    "fact": "Context is designed to share data that can be considered “global” for a tree of React components",
+                    "factId": "fact-0"
+                }
+                ]
+            }, 
+            {
+                "title": "Context: Before you use it",
+                "cardId": "card-1",
+                "detailList": [
+                    {
+                        "fact": "Context is primarily used when some data needs to be accessible by many components at different nesting levels. Apply it sparingly because it makes component reuse more difficult.",
+                        "factId": "fact-1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Algorithms",
+        "deckId": "deck-1", 
+        "description": "About Algorithms",
+        "cardList": [
+            {
+                "title": "Search in Rotated Sorted Array: Technique", 
+                "cardId": "card-2",
+                "detailList": [
+                    {
+                        "fact": "Binary Search",
+                        "factId": "fact-2"
+                    }
+                ]
+            }, 
+            {
+                "title": "Search in Rotated Sorted Array: Approach",
+                "cardId": "card-3",
+                "detailList": [
+                {
+                    "fact": "The problem is to implement a search in O(logN) time that gives an idea to use a binary search. The algorithm is quite straightforward : Find a rotation index rotation_index, i.e. index of the smallest element in the array. Binary search works just perfect here. rotation_index splits array in two parts. Compare nums[0] and target to identify in which part one has to look for target. Perform a binary search in the chosen part of the array.",
+                    "factId": "fact-3"
+                }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Algorithms",
+        "deckId": "deck-2", 
+        "description": "About Algorithms",
+        "cardList": [
+            {
+                "title": "Search in Rotated Sorted Array: Technique", 
+                "cardId": "card-3",
+                "detailList": [
+                    {
+                        "fact": "Binary Search",
+                        "factId": "fact-3"
+                    }
+                ]
+            }, 
+            {
+                "title": "Search in Rotated Sorted Array: Approach",
+                "cardId": "card-4",
+                "detailList": [
+                {
+                    "fact": "The problem is to implement a search in O(logN) time that gives an idea to use a binary search. The algorithm is quite straightforward : Find a rotation index rotation_index, i.e. index of the smallest element in the array. Binary search works just perfect here. rotation_index splits array in two parts. Compare nums[0] and target to identify in which part one has to look for target. Perform a binary search in the chosen part of the array.",
+                    "factId": "fact-4"
+                }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Algorithms",
+        "deckId": "deck-3", 
+        "description": "About Algorithms",
+        "cardList": [
+            {
+                "title": "Search in Rotated Sorted Array: Technique", 
+                "cardId": "card-4",
+                "detailList": [
+                    {
+                        "fact": "Binary Search",
+                        "factId": "fact-4"
+                    }
+                ]
+            }, 
+            {
+                "title": "Search in Rotated Sorted Array: Approach",
+                "cardId": "card-4",
+                "detailList": [
+                {
+                    "fact": "The problem is to implement a search in O(logN) time that gives an idea to use a binary search. The algorithm is quite straightforward : Find a rotation index rotation_index, i.e. index of the smallest element in the array. Binary search works just perfect here. rotation_index splits array in two parts. Compare nums[0] and target to identify in which part one has to look for target. Perform a binary search in the chosen part of the array.",
+                    "factId": "fact-4"
+                }
+                ]
+            }
+        ]
+    }
+]
